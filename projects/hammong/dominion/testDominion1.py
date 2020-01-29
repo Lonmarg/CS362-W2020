@@ -13,8 +13,8 @@ import testUtility
 player_names = testUtility.getplayernames(["Annie", "*Ben", "*Carla"])
 
 # number of curses and victory cards
-nV = 0  # testUtility.setupcurses(player_names)
-nC = testUtility.setupvictorycards(player_names)
+nV = 0  # testUtility.setupvictorycards(player_names)
+nC = testUtility.setupcurses(player_names)
 
 # Define box
 box = testUtility.getboxes(nV)

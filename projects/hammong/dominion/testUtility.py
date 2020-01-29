@@ -19,7 +19,7 @@ def getplayernames(namelist):
 
 
 # number of curses and victory cards
-def setupcurses(playernames):
+def setupvictorycards(playernames):
     if len(playernames) > 2:
         nv = 12
     else:
@@ -28,7 +28,7 @@ def setupcurses(playernames):
     return nv
 
 
-def setupvictorycards(playernames):
+def setupcurses(playernames):
     return -10 + 10 * len(playernames)
 
 
