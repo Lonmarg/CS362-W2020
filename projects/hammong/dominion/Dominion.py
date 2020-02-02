@@ -544,7 +544,7 @@ class ComputerPlayer(Player):
                 self.actions=0
         #buy phase
         if len(supply["Province"])>len(players)+totalbuypower(self.deck)/8:
-            if self.action_balance()<-10:
+            if self.action_balance() < -10:
                 self.buygaintable = self.buygaintable3
             else:
                 self.buygaintable = self.buygaintable1
